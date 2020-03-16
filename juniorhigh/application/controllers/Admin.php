@@ -37,6 +37,8 @@ public function g7_sec1()
 			$crud->set_table('7section1');
 			$crud->set_theme('bootstrap');
 			$crud->set_subject('Grade 7-Amity');
+			$crud->unset_add();
+			$crud->unset_edit();
 			//$crud->set_relation('Class Adviser','students_faculty','faculty','empNumber','surname','priority');
 			$crud->set_relation('empNumber','faculty','surname');
 		
